@@ -14,7 +14,7 @@ public class _5_String_Class {
 
 
          /*...*/ //Methods In String.
-//        String sammu = ("Samiksha");
+       String sammu = ("Samiksha");
 //
 //        System.out.println(sammu);
 //
@@ -24,7 +24,7 @@ public class _5_String_Class {
 //
 //        System.out.println(sammu.toLowerCase());
 //
-//        System.out.println(sammu.trim());
+       System.out.println(sammu.trim());
 //
 //        System.out.println(sammu.replace("s", "y"));
 //

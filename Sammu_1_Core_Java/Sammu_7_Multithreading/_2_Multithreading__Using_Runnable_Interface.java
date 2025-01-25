@@ -4,7 +4,7 @@ Using Runnable Interface :-
 2.Implementing thread program using Runnable interface is preferable than
  implementing it by extending the thread class because of the following two
  reasons :-
-         1. If a class extends a thread class then it can not extends any other class which
+        1. If a class extends a thread class then it can not extends any other class which
             may be required to extend.
          2. If a class thread is extended then all its functionalities get inherited.
          This is an expensive operation.

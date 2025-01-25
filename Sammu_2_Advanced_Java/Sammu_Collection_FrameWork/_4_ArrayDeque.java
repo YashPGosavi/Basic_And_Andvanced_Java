@@ -83,6 +83,7 @@ public class _4_ArrayDeque {
         System.out.println("First Element Is : " + A1.getFirst());
         System.out.println("Last Element Is : " + A1.getLast());
         System.out.println("**********************************************************************************************");
+
         A1.remove(5);
         System.out.println(A1.contains(3));
         System.out.println("The Size Of A1 is : "+A1.size());

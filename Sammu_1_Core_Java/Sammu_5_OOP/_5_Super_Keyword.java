@@ -3,9 +3,9 @@ package Sammu_1_Core_Java.Sammu_5_OOP;
 /* Super keyword use for -
            Super is a keyword used to access the immediate parent class object from subclass.
 -> There are three ways by which the keyword super is used.
-1)For parent class instance variable invocation (super.variableName;)
-2)For parent class method invocation (super.methodName;)
-3)For parent class constructor invocation ( super();)
+    1)For parent class instance variable invocation (super.variableName;)
+    2)For parent class method invocation (super.methodName;)
+    3)For parent class constructor invocation ( super();)
 
 -> " super " keyword always write inside the method;
  */

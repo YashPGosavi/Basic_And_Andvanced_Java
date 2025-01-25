@@ -13,6 +13,7 @@ Runnable interface.
 The run method is the most important method in any threading program. By
 using this method the thread's behaviour can be implemented. The run method can
 be written as follows :-
+
 public void run(){
 //statements for implementing thread
 }

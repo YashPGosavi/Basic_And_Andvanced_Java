@@ -58,27 +58,28 @@ Uses of Interface
 *-> Difference between Abstract class & Interfaces.
 
 Abstract Class                                                                   Interfaces
-1. The class is denoted by a keyword class.                         1. The interface is denoted by a keyword interface.
 
-2. Abstract class can have instance methods                         2. Methods of a Java interface are implicitly
-  that implements a default behavior.                                 abstract and cannot have implementations.
+1.  The class is denoted by a keyword class.                         1. The interface is denoted by a keyword interface.
 
-3. An abstract class may contain non-final                          3. Interface contains public, static & final
-  variables.                                                          variables only.
+2.  Abstract class can have instance methods                         2. Methods of a Java interface are implicitly
+    that implements a default behavior.                                 abstract and cannot have implementations.
 
-4. Methods & variables can have any access-modifier                 4. Methods & variables are always public.
-  i.e. public, protected, default & private
+3.  An abstract class may contain non-final                          3. Interface contains public, static & final
+    variables.                                                          variables only.
 
-5. Java abstract class should be extended                           5. Java interface should be implemented
-  using keyword "extends".                                            using keyword "implements"
+4.  Methods & variables can have any access-modifier                 4. Methods & variables are always public.
+    i.e. public, protected, default & private
 
-6. An abstract class can extend another Java                        6. An interface can extend another Java
-  class and implement multiple Java interfaces.                       interface only.
+5.  Java abstract class should be extended                           5. Java interface should be implemented
+    using keyword "extends".                                            using keyword "implements"
 
-7. The class contains data members and methods.                     7. The interfaces may contain data members and
-  But the methods are defined in class                                methods but the methods are not defined. The
-  implementation. Thus class contains an executable                   interface serves as an outline for the class.
-  code.
+6.  An abstract class can extend another Java                        6. An interface can extend another Java
+    class and implement multiple Java interfaces.                       interface only.
+
+7.  The class contains data members and methods.                     7. The interfaces may contain data members and
+    But the methods are defined in class                                methods but the methods are not defined. The
+    implementation. Thus class contains an executable                   interface serves as an outline for the class.
+    code.
  */
 
 

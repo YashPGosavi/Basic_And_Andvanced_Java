@@ -6,6 +6,7 @@ package Sammu_1_Core_Java.Sammu_7_Multithreading;
 // Q.3 : Demonstrate on getPriority() and setPriority() Method.
 // Q.4 : Demonstrate the State of thread.
 // Q.5 : Use currentThread() method.
+
 class Myth_1 extends Thread{
     public void run(){
         while (true){

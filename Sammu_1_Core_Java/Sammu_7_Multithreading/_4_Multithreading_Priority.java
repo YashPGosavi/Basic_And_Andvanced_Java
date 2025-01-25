@@ -4,12 +4,12 @@ Thread Priority :-
 2. The thread priority is a simple integer value that can be assigned to the particular thread.
 3. These priorities can range from 1 (the lowest priority) to 10 (highest priority).
 4. There are two commonly used functionalities in thread scheduling
-          | 1) setPriority |
-          | 2) getPriority |
+            | 1) setPriority |
+            | 2) getPriority |
 5. The function setPriority is used to set the priority to each thread
-                  Thread_Name setPriority(priority val);
+                Thread_Name setPriority(priority val);
 6. The priority_val is a constant value denoting the priority for the thread.
-   It is defined as follows :-
+    It is defined as follows :-
         o MAX PRIORITY = 10.
         o MIN PRIORITY = 1.
         o NORM PRIORITY = 5.
@@ -18,7 +18,7 @@ Thread Priority :-
 
 **Preemption**
 o Preemption is a situation in which when the currently executed thread is
-  suspended temporarily by the highest priority thread.
+    suspended temporarily by the highest priority thread.
 o The highest priority thread always preempts the lowest priority thread.
  */
 
